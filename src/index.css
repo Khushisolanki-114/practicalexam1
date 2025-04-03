@@ -1,0 +1,35 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.resume-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.resume-form input,
+.resume-form button {
+  padding: 8px;
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.resume-table th,
+.resume-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.resume-table th {
+  background-color: #f2f2f2;
+}
